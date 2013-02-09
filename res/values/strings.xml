@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DeviceUUID</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="device1_title">GFS ID (Google Service Framework ID)</string>
+    <string name="device1_value">3999997f8714e99a</string>
+
+    <string name="device2_title">android.os.Build.SERIAL</string>
+    <string name="device2_value">null</string>
+    
+    <string name="device3_title">Settings.Secure.ANDROID_ID</string>
+    <string name="device3_value">202cd37cf8d99ccc</string>
+    
+    <string name="device4_title">IMEI / MEID / ESN</string>
+    <string name="device4_value">202141299921599</string>
+    
+    <string name="device5_title">UUID (App generated)</string>
+    <string name="device5_value">00000000&#8211;399a&#8211;6999&#8211;51b0&#8211;ec5b9999c587</string>
+    
+    <string name="device6_title">Device Info</string>
+    <string name="device6_value">MID Tagus Tablet - 4.0.3</string>
+    
+    
+</resources>
