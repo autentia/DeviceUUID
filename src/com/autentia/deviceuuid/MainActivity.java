@@ -2,7 +2,9 @@ package com.autentia.deviceuuid;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.res.Configuration;
 import android.view.Menu;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -16,8 +18,29 @@ public class MainActivity extends Activity {
 		
 		init();
 	}
+	
+	@Override
+	public void onResume() {
+		super.onResume();
+		
+		ImageView imgBackground = (ImageView) findViewById(R.id.imageBackground);
+		if ( getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT ) {
+			imgBackground.setImageResource(R.drawable.background_vert);
+		} else {
+			imgBackground.setImageResource(R.drawable.background_horiz);
+		}
+	}	
 
 	private void init() {
+		ImageView imgBackground = (ImageView) findViewById(R.id.imageBackground);
+
+		if ( getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT ) {
+			imgBackground.setImageResource(R.drawable.background_vert);
+		} else {
+			imgBackground.setImageResource(R.drawable.background_horiz);
+		}
+
+		
 		serialList = new TextView[6];
 		
 		serialList[0] = (TextView) findViewById(R.id.textView_device1_value);

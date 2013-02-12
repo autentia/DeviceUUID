@@ -5,7 +5,7 @@
     tools:context=".MainActivity" >
 
     <ImageView
-        android:id="@+id/imageBackgroundVertical1"
+        android:id="@+id/imageBackground"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="centerCrop"

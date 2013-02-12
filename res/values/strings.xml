@@ -4,7 +4,7 @@
     <string name="app_name">DeviceUUID</string>
     <string name="menu_settings">Settings</string>
 
-    <string name="device1_title">GFS ID (Google Service Framework ID)</string>
+    <string name="device1_title">GSF ID (Google Service Framework ID)</string>
     <string name="device1_value">3999997f8714e99a</string>
 
     <string name="device2_title">android.os.Build.SERIAL</string>
@@ -20,7 +20,7 @@
     <string name="device5_value">00000000&#8211;399a&#8211;6999&#8211;51b0&#8211;ec5b9999c587</string>
     
     <string name="device6_title">Device Info</string>
-    <string name="device6_value">MID Tagus Tablet - 4.0.3</string>
+    <string name="device6_value">BQ Edison Tablet - 4.0.3</string>
     
     
 </resources>
